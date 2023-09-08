@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/suyy10/hello-world/issues"
   },
-  "homepage": "https://github.com/suyy10/hello-world#readme"
+  "homepage": "https://github.com/suyy10/hello-world#readme",
+  "publishConfig": {
+    "@suyy10:registry": "https://npm.pkg.github.com"
+  }
 }
