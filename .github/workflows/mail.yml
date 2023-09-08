@@ -17,7 +17,6 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           image:  hello-world
-          folder: hello-world
           branch: master
           tag: ${{ github.sha }}
       - name: Azure login
